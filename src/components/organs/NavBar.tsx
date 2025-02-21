@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Image } from "../atoms/Image";
 import { Button } from "../atoms/Button"
-import Logo from "../../assets/logo1.png"
+import Logo from "../../assets/logo1.webp"
 import { NavButtons, NavLinks } from "../particles/DataLists"
 import { List } from "../atoms/List";
 import { NavLink, useNavigate } from "react-router-dom";
@@ -50,13 +50,13 @@ const NavBar = () => {
 
                         </ul>
                         <ul className="flex items-center justify-center gap-6">
-                            {
+                            {/* {
                                 NavButtons.map((navbutton, index) => (
                                     <List className="w-full" key={index}>
                                         <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name === "Signup" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-transparent hover:border-gray-950"} py-2 px-8 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
                                     </List>
                                 ))
-                            }
+                            } */}
                             <List className="text-gray-950">
                                 <select className="border-none font-light text-base outline-none bg-transparent">
                                     <option value="EN" selected>EN</option>
@@ -69,8 +69,8 @@ const NavBar = () => {
                     <div className="lg:hidden flex gap-4 items-center">
                         <select className="border-none outline-none font-light text-sm bg-transparent">
                             <option value="EN" selected>EN</option>
-                            <option value="ITA">ITA</option>
-                            <option value="FRA">FRA</option>
+                            <option value="ES">ES</option>
+                            {/* <option value="FRA">FRA</option> */}
                         </select>
                         <div className="hamburger text-gray-950 cursor-pointer" onClick={handleToggle}>
                             <CirclesFour size={30} color="currentColor" weight="fill" />
