@@ -9,7 +9,7 @@ export const NavLinks = [
     },
     {
         name: "Contact Us",
-        url: "/"
+        url: ""
     },
     // {
     //     name: "Bookings",
@@ -32,10 +32,10 @@ export const NavButtons = [
 
 
 export const HeroTexts = {
-    firstText: "NOTHING LIKE HERITAGE TOURS",
+    firstText: "DISCOVER COLOMBIA WITH US",
     secondText: "Enjoy step by step each corner of Colombia",
-    thirdText: "Built Wicket longer admire do barton vantity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
-    firstButton: "Find out more",
+    thirdText: "We are a tourism agency with over 2 years of experience in the Colombian tourism sector, specializing in creating unique experiences tailored to our clients' needs and desires. Our goal is to provide you with the best tourist experiences in the heart of Colombia",
+    firstButton: "Contact us now",
     secondButton: 'Play Demo'
 }
 
@@ -78,25 +78,25 @@ export const TopDestinationTexts = {
             duration: "12 days trip"
         },
         {
-            country: "Santa Marta, MDG",
+            country: "Buenos Aires, ARG",
             price: "15k",
             duration: "26 days trip"
         },
         {
-            country: "New York, USA",
+            country: "And more, soon!",
             price: "4.5k",
             duration: "8 days trip"
         },
-        {
-            country: "Warsaw, Poland",
-            price: "3.9k",
-            duration: "14 days trip"
-        },
-        {
-            country: "Dubai, UAE",
-            price: "9.2k",
-            duration: "17 days trip"
-        },
+        // {
+        //     country: "Warsaw, Poland",
+        //     price: "3.9k",
+        //     duration: "14 days trip"
+        // },
+        // {
+        //     country: "Dubai, UAE",
+        //     price: "9.2k",
+        //     duration: "17 days trip"
+        // },
     ]
 }
 
@@ -133,24 +133,24 @@ export const TestimonialTexts = {
     secondText: "What people say about Us.",
     feedBacks: [
         {
-            text: "You did a fabulous job. There were no hitches. Thank you again for all your work planning this trip.",
-            person: "Mike taylor",
-            location: "Lahore, Pakistan"
+            text: "Perfect cultural tour to discover Bogotá: Jorge is an excellent and dedicated guide.I would 100% recommend this tour to anyone keen to discover the history of Colombia while being guided by Jorge through the streets of la Candelaria!. May 2024",
+            person: "Marco",
+            location: "Strasbourg, Francia"
         },
         {
-            text: "Jadoo was great with the entire process from planning to updates during the trip. We had 11 people and everything was perfectly executed. We appreciate all of her hard work. It was truly the trip of a lifetime. Thank you!",
-            person: "Gina",
-            location: "Owerri, Nigeria"
+            text: "I loved how knowledgeable our tour guide Sharik was. It was only two of us, she answered our many questions and made the tour very enjoyable. I highly recommend this tour. Feb 2025",
+            person: "Alonzo",
+            location: "United States"
         },
         {
-            text: "Booking through you was very easy and made our lives so much easier. I have nothing bad to say! Thank you for giving us tips and guidance before we left on what to bring and such, that was very helpful!",
-            person: "Emma",
-            location: "Vancouver, Canada"
+            text: "This tour exceeded my expectations! If you want to immerse yourself in Medellin’s rich city life this tour moves you through its different forms of transits while bringing awareness to the city’s cultural history and social impact. Valentina was the best tour guide. Her love and knowledge on the history of the city created an impressive background narrative as we moved through the various boroughs in transit. I learned so much, highly recommend!",
+            person: "Juan",
+            location: "Los Angeles, USA"
         },
         {
-            text: "Thank you for your recommendation and putting the trip together. The resort was absolutely beautiful. The infinity pools, the palm trees in the main pool, the infinity pool in out preferred area overlooking the gulf and the golf course were exceptional....",
-            person: "Loveth",
-            location: "Lagos, Nigeria"
+            text: "Sharik nos hizo un recorrido que nos gustó mucho, Estuvo muy entretenido, las explicaciones muy interesantes, nos invitó a una chicha y su actitud alegre y amable nos cautivó. Quedamos encantados.",
+            person: "Inmaculada",
+            location: "Madrid"
         },
     ],
 }

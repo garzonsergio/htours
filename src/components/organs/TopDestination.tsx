@@ -3,9 +3,9 @@ import { Text } from "../atoms/Text"
 import { TopDestinationTexts } from "../particles/DataLists"
 import Slider from "react-slick";
 import { Card } from "../molecules/Card";
-import City1 from "../../assets/gallery1.jpeg"
-import City2 from "../../assets/gallery2.jpeg"
-import City3 from "../../assets/gallery3.jpeg"
+import City1 from "../../assets/gallery1.jpg"
+import City2 from "../../assets/gallery2.jpg"
+import City3 from "../../assets/gallery3.jpg"
 import City4 from "../../assets/gallery4.jpeg"
 import City5 from "../../assets/gallery5.jpeg"
 import City6 from "../../assets/gallery6.jpeg"
@@ -119,15 +119,15 @@ const TopDestination = () => {
                                         <Text as="h4" className="text-base font-medium text-color3">
                                             {card.country}
                                         </Text>
-                                        <Text as="small" className=" text-color3 font-light text-sm">
+                                        {/* <Text as="small" className=" text-color3 font-light text-sm">
                                             {card.price}
-                                        </Text>
+                                        </Text> */}
                                     </div>
                                     <div className="w-full flex gap-4 items-center text-color3">
                                         <AirplaneTilt size={20} color="currentColor" weight="fill" />
-                                        <Text as="p" className=" text-color3 font-light text-base">
+                                        {/* <Text as="p" className=" text-color3 font-light text-base">
                                             {card.duration}
-                                        </Text>
+                                        </Text> */}
                                     </div>
                                 </Card>
                             </div>
