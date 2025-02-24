@@ -33,7 +33,7 @@ export const NavButtons = [
 
 export const HeroTexts = {
     firstText: "DISCOVER COLOMBIA WITH US",
-    secondText: "Enjoy step by step each corner of Colombia",
+    secondText: "Enjoy every corner of Colombia",
     thirdText: "We are a tourism agency with over 2 years of experience in the Colombian tourism sector, specializing in creating unique experiences tailored to our clients' needs and desires. Our goal is to provide you with the best tourist experiences in the heart of Colombia",
     firstButton: "Contact us now",
     secondButton: 'Play Demo'
