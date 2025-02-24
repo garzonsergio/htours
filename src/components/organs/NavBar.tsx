@@ -4,7 +4,7 @@ import { Button } from "../atoms/Button"
 import Logo from "../../assets/logo1.webp"
 import { NavButtons, NavLinks } from "../particles/DataLists"
 import { List } from "../atoms/List";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
 import { Slide } from "react-awesome-reveal";
 
