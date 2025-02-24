@@ -1,0 +1,41 @@
+:root{
+    /* CSS HEX */
+--jet: #3a3335ff;
+--white: #ffffffff;
+--dark-spring-green: #04724dff;
+--xanthous: #e6af2eff;
+--cambridge-blue: #72a98fff;
+
+--header-height: 5rem; 
+
+@media (min-width: 768px) {
+ --header-height: 6rem; 
+}
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'quebec-serial';
+  src: url('./src/assets/fonts/Quebec-Serial-Black-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'terminal-dosis';
+  src: url('./src/assets/fonts/terminal-dosis.light.ttf') format('truetype');
+}
+
+body {
+  font-family: 'quebec-serial', 'terminal-dosis', sans-serif;
+}
+
+.scroll-offset {
+  position: relative;
+  padding-top: var(--header-height);
+  margin-top: calc(var(--header-height) * -1);
+}
+
+
+

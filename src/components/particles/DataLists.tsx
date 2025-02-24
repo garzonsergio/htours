@@ -1,20 +1,20 @@
 export const NavLinks = [
     {
         name: "Destination",
-        url: "/"
+        url: "#destinationSection"
     },
     {
-        name: "Hotels",
-        url: "/"
+        name: "Testimonials",
+        url: "#testimonialsSection"
     },
     {
-        name: "Flights",
+        name: "Contact Us",
         url: "/"
     },
-    {
-        name: "Bookings",
-        url: "/"
-    }
+    // {
+    //     name: "Bookings",
+    //     url: "/"
+    // }
 
 ];
 
@@ -32,8 +32,8 @@ export const NavButtons = [
 
 
 export const HeroTexts = {
-    firstText: "BEST DESITNATIONS AROUND THE WORLD",
-    secondText: "Travel, enjoy and live a new and full life.",
+    firstText: "NOTHING LIKE HERITAGE TOURS",
+    secondText: "Enjoy step by step each corner of Colombia",
     thirdText: "Built Wicket longer admire do barton vantity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
     firstButton: "Find out more",
     secondButton: 'Play Demo'
@@ -68,17 +68,17 @@ export const TopDestinationTexts = {
     secondText: "Top Destinations",
     cards: [
         {
-            country: "Rome, Italy",
+            country: "Bogotá D.C.",
             price: "5.42k",
             duration: "10 days trip"
         },
         {
-            country: "London, UK",
+            country: "Medellín, ANT",
             price: "4.2k",
             duration: "12 days trip"
         },
         {
-            country: "Paris, France",
+            country: "Santa Marta, MDG",
             price: "15k",
             duration: "26 days trip"
         },
