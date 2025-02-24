@@ -162,34 +162,34 @@ export const NewsletterTexts = {
 }
 
 export const FooterTexts = {
-    underLogoText: "Book your trip in minutes, get full control for much longer.",
+    underLogoText: "Book your trip with us.",
     quickLinks: {
         caption: "Quick Links",
         links: [
             {
                 name: "Destination",
-                url: "/"
+                url: "#destinationSection"
             },
-            {
-                name: "Hotels",
-                url: "/"
-            },
-            {
-                name: "Flights",
-                url: "/"
-            },
-            {
-                name: "Bookings",
-                url: "/"
-            },
-            {
-                name: "Login",
-                url: "/"
-            },
-            {
-                name: "Signup",
-                url: "/"
-            }
+            // {
+            //     name: "Hotels",
+            //     url: "/"
+            // },
+            // {
+            //     name: "Flights",
+            //     url: "/"
+            // },
+            // {
+            //     name: "Bookings",
+            //     url: "/"
+            // },
+            // {
+            //     name: "Login",
+            //     url: "/"
+            // },
+            // {
+            //     name: "Signup",
+            //     url: "/"
+            // }
         ]
     },
     contacts: {

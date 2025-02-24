@@ -1,5 +1,5 @@
 import { Image } from "../atoms/Image"
-import logo from "../../assets/logo2.png"
+import logo from "../../assets/logo1.webp"
 import { Text } from "../atoms/Text"
 import { FooterTexts } from "../particles/DataLists"
 import { List } from "../atoms/List"
@@ -13,7 +13,7 @@ const Footer = () => {
         <footer className="w-full flex flex-col bg-white">
             <section className="w-full h-auto grid lg:grid-cols-5 md:grid-cols-3 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
                 <div className="flex flex-col items-start gap-4">
-                    <Image className="w-28" image={logo} alt="Logo" as="a" href="/" />
+                    <Image className="w-30" image={logo} alt="Logo" as="a" href="/" />
                     <Text className="text-sm text-color4" as="p">
                         {FooterTexts.underLogoText}
                     </Text>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <Text className="text-xl text-color3" as="h2">
                         {FooterTexts.contacts.caption}
                     </Text>
-                    <ul className="flex flex-col md:ml-12 gap-2">
+                    {/* <ul className="flex flex-col md:ml-12 gap-2">
                         {
                             FooterTexts.contacts.links.map((link, index) => (
                                 <List key={index} className="text-sm">
@@ -46,11 +46,11 @@ const Footer = () => {
                                 </List>
                             ))
                         }
-                    </ul>
+                    </ul> */}
                 </div>
 
                 <div className="flex flex-col lg:items-center gap-4 md:mt-8">
-                    <Text className="text-xl text-color3" as="h2">
+                    {/* <Text className="text-xl text-color3" as="h2">
                         {FooterTexts.more.caption}
                     </Text>
                     <ul className="flex flex-col gap-2 lg:ml-10">
@@ -61,7 +61,7 @@ const Footer = () => {
                                 </List>
                             ))
                         }
-                    </ul>
+                    </ul> */}
                 </div>
 
                 <div className="flex flex-col lg:items-center w-full md:mt-8 gap-4">
@@ -82,15 +82,15 @@ const Footer = () => {
                             </Link>
                         </List>
                     </ul>
-
+{/* 
                     <Text as="p" className="text-base font-light text-color4">
                         Discover Our App
                     </Text>
-                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" />
+                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" /> */}
                 </div>
             </section>
             <Text className="text-center bg-color4 text-white text-xs py-6 font-light">
-                Copyright 2023. Jadoo.com. All rights reserved.
+                Copyright 2025. heritage tours CO. All rights reserved.
             </Text>
         </footer>
     )
